@@ -1,0 +1,4 @@
+    for d in client.iter_dialogs():
+        print(d.name + ": " + str(d.entity.id))
+        output_channel_entities.append(d.entity.id)
+        input_channels_entities.append(d.entity.id)
